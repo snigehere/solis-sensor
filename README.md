@@ -84,6 +84,11 @@ Configuration variables:
 
 The integration will detect automatically which data is available at the backend and create the relevant sensors. Names are backward compatible with old manual configuaration.
 
+# Things to watch for
+The integration relies on the data system time stamps to work correctly
+* Make sure that the time set on your inverter is correct 
+* Logon to the solis web site you specify in the configuration and make sure that the time zone in the plant information is set correctly. 
+
 # Energy dashboard
 The Solis integration now supports the energy dashboard introduced in Release 2021.8. 
 > Note: This integration requires Home Assistant version 2021.9 or higher
